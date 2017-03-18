@@ -10,3 +10,4 @@ class TestBasics(unittest.TestCase):
 		self.assertEqual(2, result)
 	def test_carat(self):
 		result = rpn.calculate('7 2 ^')
+		self.assertEqual(49, result)
